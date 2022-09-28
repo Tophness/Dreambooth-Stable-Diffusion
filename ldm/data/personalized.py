@@ -8,7 +8,7 @@ from torchvision import transforms
 import random
 
 training_templates_smallest = [
-    'demoura {}',
+    'dean winchester {}',
 ]
 
 reg_templates_smallest = [
@@ -36,7 +36,7 @@ class PersonalizedBase(Dataset):
                  interpolation="bicubic",
                  flip_p=0.5,
                  set="train",
-                 placeholder_token="dog",
+                 placeholder_token="man",
                  per_image_tokens=False,
                  center_crop=False,
                  mixing_prob=0.25,
